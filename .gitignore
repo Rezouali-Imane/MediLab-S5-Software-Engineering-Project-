@@ -81,8 +81,3 @@ id_ed25519
 id_ed25519.pub
 
 # macOS specific
-.DS_Store
-
-# keep workspace local settings out
-.idea/
-*.iml
