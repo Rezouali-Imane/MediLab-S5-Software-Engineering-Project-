@@ -40,6 +40,9 @@ lib/
 config.properties
 .env
 
+# Keep an example config in repo (use this to create your local config.properties)
+config.properties.example
+
 # IDE / editor folders
 .vscode/
 *.ipr
@@ -59,3 +62,27 @@ node_modules/
 
 # Misc
 coverage/
+
+# Key/certificate files (do not commit private keys)
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+# Project-specific temporary / metadata
+MediLab/compile_errors.txt
+MediLab/sources.txt
+
+# SSH keys (backup local keys if accidentally placed in repo)
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# macOS specific
+.DS_Store
+
+# keep workspace local settings out
+.idea/
+*.iml
