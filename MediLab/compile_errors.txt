@@ -1,0 +1,4 @@
+./PresentationTier/SuperAdminDashboard.java:615: error: LOGGER has private access in AdminDashboard
+                LOGGER.log(java.util.logging.Level.WARNING, "Failed to refresh unified home", ex);
+                ^
+1 error

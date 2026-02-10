@@ -1,0 +1,61 @@
+# IntelliJ
+*.iml
+.idea/
+
+# Build folders
+/out/
+/build/
+/target/
+/classes/
+
+# Compiled bytecode
+*.class
+
+# Packages and distribution
+*.jar
+MediLab-fat.jar
+
+# Local libraries and libs folder
+lib/
+
+# Maven/Gradle
+/.mvn/
+.gradle/
+
+# OS files
+.DS_Store
+
+# Logs and runtime files
+*.log
+
+# Editor swap files
+*~
+*.swp
+*.swo
+
+# Git LFS attributes file
+.gitattributes
+
+# Sensitive configuration files (do NOT commit secrets)
+config.properties
+.env
+
+# IDE / editor folders
+.vscode/
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Database and local data files
+*.sqlite
+*.db
+
+# Node/npm
+node_modules/
+
+# Misc
+coverage/

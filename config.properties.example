@@ -1,0 +1,10 @@
+# Example local configuration for MediLab
+# Copy this file to config.properties and fill in your local values
+
+# Database connection
+db.url=jdbc:mysql://localhost:3306/medical_lab_db
+db.user=root
+db.password=
+
+
+
