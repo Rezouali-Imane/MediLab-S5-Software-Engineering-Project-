@@ -36,7 +36,7 @@ git clone git@github.com:Rezouali-Imane/MediLab-S5-Software-Engineering-Project-
 
 2. Set up your database using database.sql.
 
-3. Configure your database connection in config.example.
+3. Copy `config.properties.example` to `config.properties` and configure your database connection there.
 
 4. Run the application.
 
